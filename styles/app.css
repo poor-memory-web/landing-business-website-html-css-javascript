@@ -45,6 +45,8 @@ body {
     border-radius: 0.4rem;
 }
 
+/* line height */
+
 .line-height {
     line-height: 1.8rem;
 }
@@ -125,4 +127,39 @@ body {
 
 .header-content-links a:nth-child(1) {
     background-color: #87BC25;
+}
+
+
+
+/* start main --> section works*/
+
+
+
+.works__desc{
+    text-align: center;
+}
+.works__title{
+    text-align: center;
+}
+.works-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.works-content{
+    text-align: center;
+}
+.works-content-title{
+    font-family: "TTNorms-Medium";
+    font-size: 1.1rem;
+    color: #081D43;
+}
+.works-content-desc{
+    padding: 0 4rem;
+}
+.works-img{
+
+}
+.works__img{
+
 }
