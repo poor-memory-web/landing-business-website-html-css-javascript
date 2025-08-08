@@ -1,12 +1,40 @@
-html{
+html {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-body{
+
+body {
     font-family: "TTNorms-Regular";
 }
-.container{
+
+.container {
     max-width: 75rem;
     margin: 0 auto;
     padding: 0 1rem;
+}
+
+/* sections styles (padding) */
+
+.header-section,
+.works,
+.clients,
+.portfolio,
+.email,
+.copyright {
+    padding: 3rem 0;
+}
+
+/* title style */
+
+.title{
+    font-family: "TTNorms-Medium";
+    font-size: 2rem;
+    color: #081D43;
+}
+
+/* description style */
+
+.desc{
+    font-size: 1rem;
+    color: #6C7890;
 }
