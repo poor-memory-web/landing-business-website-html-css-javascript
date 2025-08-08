@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    max-width: 75rem;
+    max-width: 70rem;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -135,31 +135,34 @@ body {
 
 
 
-.works__desc{
+.works {
     text-align: center;
 }
-.works__title{
-    text-align: center;
+
+.works__title {
+    padding-top: 1.25rem;
 }
-.works-wrapper{
+
+.works-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
-.works-content{
-    text-align: center;
+
+.works-content {
+    padding-top: 4rem;
 }
-.works-content-title{
+
+.works-content-title {
     font-family: "TTNorms-Medium";
     font-size: 1.1rem;
     color: #081D43;
 }
-.works-content-desc{
-    padding: 0 4rem;
-}
-.works-img{
 
+.works-content-desc {
+    padding-top: 1rem;
+    max-width: 15rem;
 }
-.works__img{
 
+.works-img {
+    padding-top: 3rem;
 }
