@@ -233,3 +233,28 @@ body {
     margin: 1rem;
     padding-top: 7rem;
 }
+
+
+
+/* start section portfolio */
+
+
+
+.portfolio {
+    text-align: center;
+}
+
+.portfolio__title {
+    padding-top: 1.5rem;
+}
+
+.portfolio-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+.portfolio-image {
+    margin-bottom: 2rem;
+}
