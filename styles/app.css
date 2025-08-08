@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    max-width: 80rem;
+    max-width: 75rem;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -21,7 +21,7 @@ body {
 .portfolio,
 .email,
 .copyright {
-    padding: 3rem 0;
+    padding: 5rem 0;
 }
 
 /* title style */
@@ -43,6 +43,10 @@ body {
 
 .border-radius {
     border-radius: 0.4rem;
+}
+
+.line-height {
+    line-height: 1.8rem;
 }
 
 
@@ -74,4 +78,51 @@ body {
     padding: 0.7rem 1.5rem;
     background-color: #2F5BEA;
     color: white;
+}
+
+
+
+/* start header section styles */
+
+
+
+.header-section-wrapper {
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.header__title {
+    max-width: 25rem;
+    padding-top: 3rem;
+    line-height: 2.4rem;
+}
+
+.header__desc {
+    max-width: 25rem;
+    padding-top: 1.5rem;
+}
+
+.header-content-links {
+    padding-top: 2rem;
+    display: flex;
+}
+
+.header__link {
+    padding: 0.7rem 0;
+    background-color: #2F5BEA;
+    color: white;
+    text-decoration: none;
+    width: 10rem;
+    display: block;
+    text-align: center;
+    margin-right: 0.8rem;
+}
+
+.header-content-links a:nth-child(1) {
+    background-color: #87BC25;
 }
