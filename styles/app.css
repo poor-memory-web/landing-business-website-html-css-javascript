@@ -173,53 +173,63 @@ body {
 
 
 
-.clients{
+.clients {
     background-color: #2F5BEA;
     text-align: center;
 }
-.clients__title{
+
+.clients__title {
     color: #fff;
 }
-.clients__desc{
+
+.clients__desc {
     color: #fff;
     padding: 0 18rem;
     padding-top: 1rem;
 }
-.clients-wrapper{
+
+.clients-wrapper {
     max-width: 60rem;
     margin: 0 auto;
 }
-.comments{
+
+.comments {
     display: flex;
     justify-content: space-between;
     padding-top: 5rem;
 }
-.comment{
+
+.comment {
     background-color: #fff;
     margin: 0 1rem;
     text-align: start;
 }
-.comment-content{
+
+.comment-content {
     padding: 1rem;
     padding-bottom: 3rem;
 }
-.comment-content__txt{
+
+.comment-content__txt {
     font-family: "Times-Roman";
     color: #7E8085;
 }
-.comment-username{
+
+.comment-username {
     display: flex;
     align-items: center;
     padding: 1rem;
     border-top: 1px solid #7E8085;
 }
-.comment-username__id{
+
+.comment-username__id {
     margin-left: 1rem;
 }
-.company{
+
+.company {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 1rem;
-    padding-top: 6rem;
+    padding-top: 7rem;
 }
