@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-    max-width: 70rem;
+    max-width: 75rem;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -66,14 +66,16 @@ body {
 
 .menu-wrapper {
     display: flex;
-    width: 50%;
+    width: 86%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
+    justify-content: space-between;
+    width: 40%;
 }
 
 .menu__link {
