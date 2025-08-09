@@ -42,7 +42,7 @@ body {
 /* border redius */
 
 .border-radius {
-    border-radius: 0.4rem;
+    border-radius: 0.3rem;
 }
 
 /* line height */
@@ -64,11 +64,16 @@ body {
     padding-top: 1.5rem;
 }
 
+.menu-wrapper {
+    display: flex;
+    width: 50%;
+}
+
 .menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 50%;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .menu__link {
