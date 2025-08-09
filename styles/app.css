@@ -21,7 +21,7 @@ body {
 .portfolio,
 .email,
 .copyright {
-    padding: 6rem 0;
+    padding: 7rem 0;
 }
 
 /* title style */
@@ -257,4 +257,51 @@ body {
 
 .portfolio-image {
     margin-bottom: 2rem;
+}
+
+
+
+/* start footer --> section email */
+
+
+
+.email {
+    background-color: #2F5BEA;
+}
+
+.email-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email__title {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.email-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 24rem;
+    background-color: #fff;
+    padding: 0.3rem;
+}
+
+.email-content__input {
+    color: #6C7890;
+    width: 100%;
+    min-height: 2.5rem;
+    padding-left: 1rem;
+    border: none;
+    outline: none;
+}
+
+.email-send-logo {
+    padding: 1rem 1.25rem;
+    background-color: #2F5BEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
