@@ -2,12 +2,6 @@
     .container {
         max-width: 960px;
     }
-    .menu{
-        width: 55%;
-    }
-    .menu__item{
-        margin-left: 2rem;
-    }
 }
 
 @media only screen and (max-width: 992px) {
