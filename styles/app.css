@@ -305,3 +305,18 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
+
+/* start section copyright */
+
+
+.copyright {
+    padding: 2.5rem 0;
+}
+
+.copyright-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
