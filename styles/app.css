@@ -59,23 +59,16 @@ body {
 
 .nav-wrapper {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding-top: 1.5rem;
-}
-
-.menu-wrapper {
-    display: flex;
-    width: 86%;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 40%;
+    width: 50%;
 }
 
 .menu__link {
@@ -84,9 +77,9 @@ body {
 }
 
 .menu__link--active {
-    padding: 0.7rem 1.5rem;
+    padding: 0.75rem 1.5rem;
     background-color: #2F5BEA;
-    color: white;
+    color: #fff;
 }
 
 
