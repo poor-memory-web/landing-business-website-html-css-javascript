@@ -23,8 +23,9 @@
         top: 0;
         left: -240px;
         bottom: 0;
-        background: aqua;
+        background: #4DFFBE;
         width: 15rem;
+        transition: left ease 0.3s;
     }
 
     .menu__item {
@@ -43,6 +44,7 @@
         position: fixed;
         left: -8rem;
         top: 23.5rem;
+        transition: left ease 0.3s;
     }
 
     .header__icon {
