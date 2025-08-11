@@ -2,11 +2,51 @@
     .container {
         max-width: 960px;
     }
+
+    .menu {
+        width: 60%;
+    }
 }
 
 @media only screen and (max-width: 992px) {
     .container {
         max-width: 720px;
+    }
+
+    .header__logo--responsive {
+        display: block;
+    }
+
+    .menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -240px;
+        bottom: 0;
+        background: aqua;
+        width: 15rem;
+    }
+
+    .menu__item {
+        margin-bottom: 2.5rem;
+        display: flex;
+        justify-content: center;
+        font-size: 1.2rem;
+    }
+
+    .header__logo {
+        margin-top: 1rem;
+    }
+
+    .menu__link--active {
+        display: block;
+        position: fixed;
+        left: -8rem;
+        top: 23.5rem;
+    }
+
+    .header__icon {
+        display: block;
     }
 }
 
